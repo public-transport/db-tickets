@@ -5,7 +5,7 @@
   "description": "A library to retrieve ticket information from Deutsche Bahn",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test.js",
     "lint": "./node_modules/.bin/eslint --fix --ext .js lib"
   },
   "author": "envake",
