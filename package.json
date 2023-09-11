@@ -12,7 +12,8 @@
   "author": "envake",
   "contributors": [
     "krmax44 <hi@krmax44.de>",
-    "arnebr (https://github.com/arnebr)"
+    "arnebr (https://github.com/arnebr)",
+    "Jannis R <mail@jannisr.de>"
   ],
   "license": "ISC",
   "dependencies": {
