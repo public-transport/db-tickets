@@ -5,7 +5,7 @@
   "description": "A library to retrieve ticket information from Deutsche Bahn",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
+    "test": "node test/index.js",
     "lint": "./node_modules/.bin/eslint --fix --ext .js lib"
   },
   "author": "envake",
