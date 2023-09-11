@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node test/index.js",
-    "lint": "./node_modules/.bin/eslint --fix --ext .js lib"
+    "lint": "./node_modules/.bin/eslint --fix --ext .js lib",
+    "prepublishOnly": "npm run lint && npm test"
   },
   "author": "envake",
   "contributors": [
