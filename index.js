@@ -20,7 +20,6 @@ const queryTicket = async (ticketNumber, lastName) => {
         //extract the kwid from the order object
         kwid = order.kwid
     }
-    //use the queryTicket function to get the ticket data
     const ticketData = await rqorderdetails(ticketNumber, lastName, kwid)
     return ticketData
 }
