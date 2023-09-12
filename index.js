@@ -3,7 +3,7 @@
  * ISC Licensed
  */
 
-import {default  as rqorderdetails} from './lib/queryTicket.js' 
+import {queryTicket as rqorderdetails} from './lib/queryTicket.js' 
 import findTicket from './lib/findTicket.js' 
 
 /**
