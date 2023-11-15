@@ -1,18 +1,24 @@
 {
   "type": "module",
   "name": "db-tickets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A library to retrieve ticket information from Deutsche Bahn",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
-    "lint": "./node_modules/.bin/eslint --fix --ext .js lib"
+    "test": "node test/index.js",
+    "lint": "./node_modules/.bin/eslint --fix --ext .js lib",
+    "prepublishOnly": "npm run lint && npm test"
   },
   "author": "envake",
+  "contributors": [
+    "krmax44 <hi@krmax44.de>",
+    "arnebr (https://github.com/arnebr)",
+    "Jannis R <mail@jannisr.de>"
+  ],
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.2.8",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "eslint": "^8.20.0"

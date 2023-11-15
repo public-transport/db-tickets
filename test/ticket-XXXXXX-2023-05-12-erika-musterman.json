@@ -1,0 +1,342 @@
+{
+    "rporderdetails": {
+        "$": {
+            "version": "2.0"
+        },
+        "rpheader": [
+            {
+                "$": {
+                    "tnr": "",
+                    "ts": "2023-09-12T08:38:02"
+                }
+            }
+        ],
+        "order": [
+            {
+                "$": {
+                    "cdt": "2023-05-12T23:57:51",
+                    "cid": "12922018",
+                    "ddt": "2024-07-12T23:57:51",
+                    "fkat": "5",
+                    "hkey": "dc6cc67efa0f0019ed8e305525ba28f2",
+                    "ldt": "2023-05-12T23:57:51",
+                    "on": "XXXXXX",
+                    "pg": "1",
+                    "sdt": "2023-05-14T13:38:00",
+                    "version": "18",
+                    "vfrom": "2023-05-14T00:00:00",
+                    "vto": "2023-05-15T23:59:59",
+                    "zweg": "1"
+                },
+                "schedulelist": [
+                    {
+                        "out": [
+                            {
+                                "$": {
+                                    "posnr": "1"
+                                },
+                                "txt": [
+                                    "Berlin Hbf (tief) 13:38 - Hamburg-Altona 15:39"
+                                ],
+                                "tp": [
+                                    {
+                                        "depn": [
+                                            "Berlin+City"
+                                        ],
+                                        "arrn": [
+                                            "Hamburg+City"
+                                        ]
+                                    }
+                                ],
+                                "trainlist": [
+                                    {
+                                        "train": [
+                                            {
+                                                "$": {
+                                                    "tid": "C0-0.0",
+                                                    "tn": "ICE 1600",
+                                                    "type": "T"
+                                                },
+                                                "zugnr": [
+                                                    "1600"
+                                                ],
+                                                "gat": [
+                                                    "ICE"
+                                                ],
+                                                "sci": [
+                                                    "Y"
+                                                ],
+                                                "dep": [
+                                                    {
+                                                        "$": {
+                                                            "dt": "2023-05-14T00:00:00",
+                                                            "t": "13:38:00"
+                                                        },
+                                                        "n": [
+                                                            "Berlin Hbf (tief)"
+                                                        ],
+                                                        "nr": [
+                                                            "8098160"
+                                                        ],
+                                                        "ebhf_name": [
+                                                            "Berlin Hbf (tief)"
+                                                        ],
+                                                        "ebhf_nr": [
+                                                            "8098160"
+                                                        ],
+                                                        "ptf": [
+                                                            "8"
+                                                        ],
+                                                        "plz": [
+                                                            "10557"
+                                                        ],
+                                                        "x": [
+                                                            "13369549"
+                                                        ],
+                                                        "y": [
+                                                            "52525589"
+                                                        ]
+                                                    }
+                                                ],
+                                                "arr": [
+                                                    {
+                                                        "$": {
+                                                            "dt": "2023-05-14T00:00:00",
+                                                            "t": "15:39:00"
+                                                        },
+                                                        "n": [
+                                                            "Hamburg-Altona"
+                                                        ],
+                                                        "nr": [
+                                                            "8002553"
+                                                        ],
+                                                        "ebhf_name": [
+                                                            "Hamburg-Altona"
+                                                        ],
+                                                        "ebhf_nr": [
+                                                            "8002553"
+                                                        ],
+                                                        "ptf": [
+                                                            "6"
+                                                        ],
+                                                        "plz": [
+                                                            "22765"
+                                                        ],
+                                                        "x": [
+                                                            "9935175"
+                                                        ],
+                                                        "y": [
+                                                            "53552697"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "tcklist": [
+                    {
+                        "tck": [
+                            {
+                                "$": {
+                                    "posnr": "2"
+                                },
+                                "htdata": [
+                                    {
+                                        "ht": [
+                                            {
+                                                "_": "data:image/png;base64,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",
+                                                "$": {
+                                                    "name": "barcode",
+                                                    "pos": "1",
+                                                    "type": "image/png;base64"
+                                                }
+                                            },
+                                            {
+                                                "_": "PHA+RnJhdcKgIEVyaWthIE11c3Rlcm1hbjxici8+Cjxici8+CklDRSBGYWhya2FydGUsIEZsZXhwcmVpcyAoRWluZmFjaGUgRmFocnQpPGJyLz4KRmFocnRhbnRyaXR0IGFtIDE0LjA1LjIwMjM8YnIvPgpDaXR5IGFtIDE0LjA1LjIzPGJyLz4KPGJyLz4KS2xhc3NlOiAyLCBFcncuOiAxLCBtaXQgMcKgQkM1MDxici8+CkhpbmZhaHJ0OiBCZXJsaW4rQ2l0eSAtIEhhbWJ1cmcrQ2l0eSwgbWl0IElDRTxici8+Cjxici8+CsOcYmVyOiBWSUE6IEJTUCooV1VNKlNETCpTQVcqVUUqSEFSL1dCRSpMV0wpPGJyLz4KPGJyLz4KTnVyIGfDvGx0aWcgbWl0IGFtdGxpY2hlbSBMaWNodGJpbGRhdXN3ZWlzICh6LkIuIFBlcnNvbmFsYXVzd2VpcykuIERpZXNlciBpc3QgYmVpIGRlciBLb250cm9sbGUgdm9yenV6ZWlnZW4uPGJyLz4KQmVpIEZhaHJrYXJ0ZW4gbWl0IEJhaG5DYXJkLVJhYmF0dCB6ZWlnZW4gU2llIGJpdHRlIHp1c8OkdHpsaWNoIElocmUgZ8O8bHRpZ2UgQmFobkNhcmQgdm9yLjxici8+Cjxici8+ClN0b3JubyBrb3N0ZW5mcmVpIGJpcyAxIFRhZyB2b3IgMS4gR2VsdHVuZ3N0YWcuPGJyLz4KPGJyLz4KQXVmdHJhZ3MtTnI6IFhYWFhYWDxici8+Ckdlc2FtdHByZWlzOiA0Miw5MCBFVVI8YnIvPgpHZWJ1Y2h0IGFtIDEyLjA1LjIwMjMgdW0gMjM6NTcgVWhyPGJyLz4KPC9wPg==",
+                                                "$": {
+                                                    "name": "httext",
+                                                    "pos": "2",
+                                                    "type": "text/html;base64"
+                                                }
+                                            },
+                                            {
+                                                "_": "\n\t\tbody {\n\t\t\tfont-family: sans-serif;\n\t\t\tfont-size: 16px;\n\t\t\tfont-size: 1rem;\n\t\t\ttext-align: center;\n\t\t}\n\n\t\t.barcode img,\n\t\t.sichtmerkmal img {\n\t\t\twidth: 90%;\n\t\t}\n\n\t\tp.AngebotBezeichnung,\n\t\t.httext {\n\t\t\tpadding-left: 1em;\n\t\t\tpadding-right: 1em;\n\t\t\ttext-align: left;\n\t\t\tline-height: 1.1;\n\t\t\tword-break: break-word;\n\t\t}\n\n\t\t.httext h4 {\n\t\t\tfont-weight: bold;\n\t\t\tfont-size: 1.1rem;\n\t\t}\n\n\t\tp.CityMobilTarifangaben {\n\t\t\tmargin: 0 1em;\n\t\t\tpadding-left: 0;\n\t\t\tpadding-right: 0;\n\t\t\tfont-weight: bold;\n\t\t}\n\t\t\n\t\t.ShtAngebotbezeichnung {\n\t\t\tfont-weight: bold;\n\t\t\tfont-size: 1.1rem;\n\t\t}\n\t\t\n\t\t.OsaIPSIProduktbezeichnung {\n\t\t\tfont-weight: bold;\n\t\t\tfont-size: 1.1rem;\n\t\t}\n\t\t\n\t\t.OsaIPSIKondition {\n\t\t\tfont-size: 0.8rem;\n\t\t}\n\t",
+                                                "$": {
+                                                    "name": "htstyle",
+                                                    "pos": "2",
+                                                    "type": "text/css"
+                                                }
+                                            },
+                                            {
+                                                "_": "data:image/png;base64,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",
+                                                "$": {
+                                                    "name": "sichtmerkmal",
+                                                    "pos": "10",
+                                                    "type": "image/png;base64"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "mtk": [
+                                    {
+                                        "$": {
+                                            "dir": "1",
+                                            "status": "8"
+                                        },
+                                        "txt": [
+                                            "Einfache Fahrt, Flexpreis, 2. Kl., 1 Erw., BC 50, Berlin+City/Hamburg+City#"
+                                        ],
+                                        "zb": [
+                                            "N"
+                                        ],
+                                        "iss": [
+                                            "80"
+                                        ],
+                                        "tkey": [
+                                            "XXXXXX-5"
+                                        ],
+                                        "ot_nr_hin": [
+                                            "800000048"
+                                        ],
+                                        "reisender_vorname": [
+                                            "Erika"
+                                        ],
+                                        "reisender_nachname": [
+                                            "Musterman"
+                                        ],
+                                        "bc": [
+                                            {
+                                                "rbs": [
+                                                    "50"
+                                                ],
+                                                "anz": [
+                                                    "1"
+                                                ]
+                                            }
+                                        ],
+                                        "nvplist": [
+                                            {
+                                                "nvp": [
+                                                    {
+                                                        "_": "1 BC 50",
+                                                        "$": {
+                                                            "name": "k_erm_db"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "1",
+                                                        "$": {
+                                                            "name": "anzerw"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "0",
+                                                        "$": {
+                                                            "name": "anzkind"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "S2",
+                                                        "$": {
+                                                            "name": "klasse"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "NP",
+                                                        "$": {
+                                                            "name": "preisartcodedb"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "Berlin Hbf (tief)",
+                                                        "$": {
+                                                            "name": "tpevahstart"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "Hamburg-Altona",
+                                                        "$": {
+                                                            "name": "tpevahziel"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "8",
+                                                        "$": {
+                                                            "name": "status"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "Berlin+City",
+                                                        "$": {
+                                                            "name": "citystart"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "Hamburg+City",
+                                                        "$": {
+                                                            "name": "cityziel"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "posinfolist": [
+                    {
+                        "posinfo": [
+                            {
+                                "$": {
+                                    "dir": "1",
+                                    "dirlabel": "none",
+                                    "posnr": "2",
+                                    "shownr": "1002",
+                                    "state": "8",
+                                    "type": "TCK",
+                                    "typeinfo": "0",
+                                    "vfo": "2023-05-14T00:00:00",
+                                    "vto": "2023-05-15T23:59:59"
+                                },
+                                "childlist": [
+                                    {
+                                        "posinfo": [
+                                            {
+                                                "$": {
+                                                    "dir": "1",
+                                                    "dirlabel": "none",
+                                                    "posnr": "1",
+                                                    "shownr": "1100",
+                                                    "state": "8",
+                                                    "type": "EVA",
+                                                    "typeinfo": "0",
+                                                    "vfo": "2023-05-14T13:38:00",
+                                                    "vto": "2023-05-14T16:22:00"
+                                                },
+                                                "childlist": [
+                                                    ""
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "txt": [
+                    "Berlin Hbf (tief) - Hamburg-Altona"
+                ]
+            }
+        ]
+    }
+}
